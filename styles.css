@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Lobster;
+    src: url("./fonts/Lobster-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: FontAwesome;
+    src: url("./fonts/fontawesome-webfont.ttf");
+    font-weight: normal;
+}
+body {
+    font-family: FontAwesome;
+    margin: 0;
+    background-image: url(./images/background.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #999;
+}
+h1 {
+    font-family: Lobster;
+    font-size: 4.8rem;
+    color: white; 
+}
+.glyphicon {
+    font-size: 5rem;
+}
+p {
+    font-size: 2rem;
+}
+p:hover {
+    text-decoration: underline;
+}
+.menu-item {
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    border: 5px solid transparent;
+}
+.menu-item:hover {
+    border: 5px solid #c6c6c6;
+}
+.blue {
+    background: #28abe3;
+}
+.green {
+    background: #72bf48;
+}
+.red {
+    background: #fb6648;
+}
+.light-green {
+    background: #0eceab;
+}
+.orange {
+    background: #fa6900;
+}
+.purple {
+    background: #9b59b6;
+}
+.footer-block {
+    color: white; 
+    padding: 1.5rem;
+    background: black;
+}
+a {
+    color: red;
+}
+a:hover {
+    text-decoration: none;
+    color: #337ab7;
+}
+/*@media all and (max-width: 40rem) {
+    .menu-item {
+        width: 50%;
+    }
+}
