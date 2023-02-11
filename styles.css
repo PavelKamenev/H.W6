@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Lobster;
+    src: url("./fonts/Lobster-Regular.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: FontAwesome;
+    src: url("./fonts/fontawesome-webfont.ttf");
+    font-weight: normal;
+}
+body {
+    font-family: FontAwesome;
+    margin: 0;
+    background-image: url(./images/background.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container {
+    width: 65%;
+    padding-top: 3rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo{
+    font-size: 12px;
+    color: #999;
+}
+h1 {
+    font-family: Lobster;
+    font-size: 48px;
+    color: white; 
+}
+.glyphicon {
+    font-size: 50px;
+}
+p {
+    font-size: 20px;
+}
+.undl p:hover {
+    text-decoration: underline;
+}
+.menu-item {
+    color: #fff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-bottom: 30px;
+    border: 5px solid transparent;
+}
+.menu-item.undl:hover {
+    border: 5px solid #c6c6c6;
+}
+.blue {
+    background: #28abe3;
+}
+.green {
+    background: #72bf48;
+}
+.red {
+    background: #fb6648;
+}
+.light-green {
+    background: #0eceab;
+}
+.orange {
+    background: #fa6900;
+}
+.purple {
+    background: #9b59b6;
+}
+.footer-block {
+    color: white; 
+    padding: 1.5rem;
+    background: black;
+}
+a {
+    color: red;
+}
+a:hover {
+    text-decoration: none;
+    color: #337ab7;;
+}
+/*@media (max-width: 45rem) {
+    .menu-item {
+        width: 50%;
+    }
+}*/
